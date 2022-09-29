@@ -1,7 +1,5 @@
 # Definizione
 
-# Definizione
-
 ## 1. *Bisogni* esposti nella traccia:
 > - Controllo degli accessi (Nome Utente,Password).
 > - Controllo della validità della email.
