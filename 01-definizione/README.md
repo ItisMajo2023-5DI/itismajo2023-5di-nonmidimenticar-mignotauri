@@ -1,8 +1,11 @@
 # Definizione
 
-La definizione dell'elaborato dovrà affrontare i seguenti punti:
-- identificazione dei bisogni esposti nella traccia
-- descrizione delle risposte tecnologiche ai bisogni individuati
-- identificazione delle carenze (gap) nelle conoscenze rilevati nei membri del gruppo
+# Definizione
 
-Puoi editare questo file per creare il tuo documento di definizione oppure aggiungere un altro file in questa cartella. In ogni caso il documento deve essere un file di testo formattato con il linguaggio Markdown.
+## 1. *Bisogni* esposti nella traccia:
+> - Controllo degli accessi (Nome Utente,Password).
+> - Controllo della validità della email.
+> - Dati gestiti in modo sicuro e rispettoso la privacy degli utenti.
+> - Istituto di provenienza e vari dati scolastici (voti,media scolastica).
+
+
