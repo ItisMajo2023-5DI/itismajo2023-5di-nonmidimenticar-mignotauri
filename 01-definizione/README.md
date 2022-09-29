@@ -11,13 +11,17 @@
 > - Per sviluppare il nostro sito web andremo ad utilizzare "**Visual Studio 2019**", tramite il quale  andremo a gestire i controlli, basati su (Nome Utente e Password) un controllo della validità della mail ed eventualmente accesso a due fattori in ASP.NET Core.
 > - Per il controllo degli accessi utilizzeremo un database secondario.
 > - Per il controllo della validità della email utilizzeremo la classe **MailAddress** di Microsoft.
-> - Utilizzando la libreria "using Microsoft.AspNetCore.Identity" è di fatto possibile utilizzare un servizio di login a due fattori (2FA) che permette alle scuole di accedere alla pagina amministratore, dove potranno essere inseriti i dati e potrà essere gestito il proprio istituto.
+> - Utilizzando la libreria "using Microsoft.AspNetCore.Identity" è possibile utilizzare il servizio di login a due fattori (2FA) che permette alle scuole di accedere alla pagina amministratore, dove sarà possibile inserire e gestire i dati.
 
 ## 3. *Gap* di conoscenza rilevati nei membri del gruppo:
-> - Creazione di un database partendo da un diagramma UML ("Entity Framework");
+> - Creazione database partendo da un diagramma "UML" ("Entity Framework");
 > -	Gestione e comparazione dei dati contenuti nel database;
 > - Autenticazione a due fattori ("using Microsoft.AspNetCore.Identity");
-> -	Inserimento di una pagina amministratore differente da quella utente.
+> - Pagina amministratore differente da quella utente che dovremo aggiungere.
+
+## 4. *Informazioni* che si useranno per rispondere ai bisogni e colmare i gap di conoscenza:
+> - Per rispondere ai bisogni trovati e ai Gap di conoscenza utilizzeremo le seguenti fonti:
+
 
 
 
