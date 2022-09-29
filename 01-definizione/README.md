@@ -1,10 +1,10 @@
 # Definizione
 
 ## 1. *Bisogni* esposti nella traccia:
-> - Controllo degli accessi (Nome Utente,Password).
-> - Controllo della validità della email.
-> - Dati gestiti in modo sicuro e rispettoso la privacy degli utenti.
-> - Istituto di provenienza e vari dati scolastici (voti,media scolastica).
+> - Controllo degli accessi (Nome Utente,Password);
+> - Controllo della validità della email;
+> - Dati gestiti in modo sicuro e rispettoso la privacy degli utenti;
+> - Istituto di provenienza e vari dati scolastici (voti,media scolastica);
 > - Eventuale accesso a due fattori.
 
 ## 2. *Risposte* tecnologiche ai bisogni individuati:
@@ -21,6 +21,10 @@
 
 ## 4. *Informazioni* che si useranno per rispondere ai bisogni e colmare i gap di conoscenza:
 > - Per rispondere ai bisogni trovati e ai Gap di conoscenza utilizzeremo le seguenti fonti:
+> -	Gestione Entity Framework,per la creazione e l'alimentazione di un database;
+> -	Libreria "using Microsoft.AspNetCore.Identity";
+> - Raccoglimento Dati e confronto lavoro: https://eduscopio.it/ 
+
 
 
 
