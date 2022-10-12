@@ -25,7 +25,7 @@
 > -	Libreria "using Microsoft.AspNetCore.Identity";
 > - Raccoglimento Dati e confronto lavoro: https://eduscopio.it/ 
 ## 5. *Diagramma UML*:
- ![Diagramma uml](1.PNG)
+ ![Diagramma uml](1.png)
 
 
 
