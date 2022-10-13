@@ -3,11 +3,11 @@
 
 ## Progetto iniziale:
 
->- Il sito che andremo a realizzare permetterà di trovare le scuole che meglio corrispondono a una serie di parametri scelti dall'utente. Sarà inoltre possibile mettere in contatto le aziende con gli allievi, utilizzando i dati inseriti dagli istituti.
+>- Il sito che realizzeremo ci permetterà di trovare le scuole che corrispondono ai parametri scelti dall'utente.Gli allievi saranno in grado di essere contatti dalle aziende, grazie ai dati dei vari istituti.
 
 >- Il progetto comprenderà due pagine:
 
- >- La pagina "utente", dove chiunque avrà accesso e dove l'utente potrà trovare la scuola che più si addice ai suoi canoni.
+ >- La pagina "utente", dove si potrà avere accesso e l'utente sceglierà la scuola che più li si addice.
  >- La pagina "amministrativa", dove in seguito all'autenticazione a due fattori i responsabili delle varie scuole potranno inserire i dati relativi al proprio            istituto.
 >- I parametri che l'utente dovrà inserire saranno: la propria figura; il sesso; il nome; l'indirizzo di studi; la città di residenza; la distanza massima e gli interessi maggiori.
 >- In seguito alla comparazione tra i vari istituti che corrispondono ai criteri selezionati, l'utente potrà vedere in ordine decrescente le scuole che meglio rispondono ai bisogni indicati.
