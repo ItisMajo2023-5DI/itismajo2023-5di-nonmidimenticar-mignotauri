@@ -21,7 +21,7 @@
    Scriveremo il codice necessario per l'inserimeto dei dati dalle varie scuole. In questa fase sarà gestita l'autenticazione a 2 fattori.
  > - Fase 3(Pagina utente): Eseguito da Andrea Franco, aiutato dal resto del gruppo,
    Verrà creato l'algoritmo che confronterà i dati salvati nel database, mostrando all'utente le scuole che più coincidono ai criteri prescelti.
- > - Fase 5(Check-up finale del prodotto): Eseguito da tutti i membri del gruppo,
+ > - Fase 4(Check-up finale del prodotto): Eseguito da tutti i membri del gruppo,
    Controlleremo il totale funzionamento dell'applicazione, correggendo eventuali errori o miglioramenti. 
  
 ## Documentazione del processo di realizzazione:
