@@ -8,16 +8,17 @@
 >- Il progetto comprenderà due pagine:
 
  >- La pagina "utente", dove si potrà avere accesso e l'utente sceglierà la scuola che più li si addice.
- >- La pagina "amministrativa", dove in seguito all'autenticazione a due fattori i responsabili delle varie scuole potranno inserire i dati relativi al proprio            istituto.
->- I parametri che l'utente dovrà inserire saranno: la propria figura; il sesso; il nome; l'indirizzo di studi; la città di residenza; la distanza massima e gli interessi maggiori.
->- In seguito alla comparazione tra i vari istituti che corrispondono ai criteri selezionati, l'utente potrà vedere in ordine decrescente le scuole che meglio rispondono ai bisogni indicati.
+ >- La pagina "amministrativa", dopo avere eseguito l'autenticazione a due fattori, il personale delle varie scuole potrà inserire i dati del proprio              istituto.
+>- I parametri che l'utente dovrà inserire saranno: Nome; sesso; percorso di studi; la città di residenza; la distanza e i propri interessi.
+>- In seguito alla comparazione tra i vari istituti che corrispondono ai criteri selezionati, l'utente visualizzerà in ordine decrescente le scuole che meglio corrispondono ai bisogni indicati.
 
 ## Organizzazione e suddivisione del lavoro:
 > - Il lavoro che andremo a svolgere verrà suddiviso principalmente in 5 fasi:
 
- > - Fase 1(Creazione del database): Eseguito Andrea Franco, Mattia Rughetta, Marco Defilippis
-   Mediante l'utilizzo dell'Entity Framework creeremo il database partendo dal diagramma UML sotto rappresentato.  
- > - Fase 2(Pagina aministrativa): Eseguito da Mattia Rughetta, aiutato dal resto del gruppo
+ > - Fase 1(Creazione del database): Eseguito Andrea Franco, Mattia Rughetta, Marco Defilippis.
+   Mediante l'utilizzo dell'Entity Framework creeremo il database aiutandoci con il diagramma uml. 
+   
+ > - Fase 2(Pagina aministrativa): Eseguito da Mattia Rughetta, aiutato dal resto del gruppo.
    Scriveremo il codice necessario per l'inserimeto dei dati dalle varie scuole. In questa fase sarà gestita l'autenticazione a 2 fattori.
  > - Fase 3(Pagina utente): Eseguito da Andrea Franco, aiutato dal resto del gruppo,
    Verrà creato l'algoritmo che confronterà i dati salvati nel database, mostrando all'utente le scuole che più coincidono ai criteri prescelti.
