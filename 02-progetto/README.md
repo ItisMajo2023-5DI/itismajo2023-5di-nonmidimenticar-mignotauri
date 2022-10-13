@@ -17,7 +17,7 @@
 
  > - Fase 1(Creazione del database): Eseguito Andrea Franco, Mattia Rughetta, Marco Defilippis.
    Mediante l'utilizzo dell'Entity Framework creeremo il database aiutandoci con il diagramma uml. 
-   
+   ![Diagramma uml](Diagramma.png) 
  > - Fase 2(Pagina aministrativa): Eseguito da Mattia Rughetta, aiutato dal resto del gruppo.
    Scriveremo il codice necessario per l'inserimeto dei dati dalle varie scuole. In questa fase sarà gestita l'autenticazione a 2 fattori.
  > - Fase 3(Pagina utente): Eseguito da Andrea Franco, aiutato dal resto del gruppo,
