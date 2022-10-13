@@ -15,13 +15,11 @@
 ## Organizzazione e suddivisione del lavoro:
 > - Il lavoro che andremo a svolgere verrà suddiviso principalmente in 5 fasi:
 
- > - Fase 1(Interfaccia e creazione): Eseguita da Marco Defilippis, aiutato dal resto del gruppo
-   In questa fase verrà realizzata l'interfaccia che il nostro sito avrà. Essa conterrà una scelta iniziale tra università e mondo del lavoro, che indirizzerà l'utente    al percorso desiderato; Sarà presente inoltre un bottone per fare il login da amministratore, che aprirà la relativa pagina. La grafica di tutte le pagine verrà        gestita in questa fase.
- > - Fase 2(Creazione del database): Eseguito Andrea Franco, Mattia Rughetta, Marco Defilippis
+ > - Fase 1(Creazione del database): Eseguito Andrea Franco, Mattia Rughetta, Marco Defilippis
    Mediante l'utilizzo dell'Entity Framework creeremo il database partendo dal diagramma UML sotto rappresentato.  
- > - Fase 3(Pagina aministrativa): Eseguito da Mattia Rughetta, aiutato dal resto del gruppo
+ > - Fase 2(Pagina aministrativa): Eseguito da Mattia Rughetta, aiutato dal resto del gruppo
    Scriveremo il codice necessario per l'inserimeto dei dati dalle varie scuole. In questa fase sarà gestita l'autenticazione a 2 fattori.
- > - Fase 4(Pagina utente): Eseguito da Andrea Franco, aiutato dal resto del gruppo,
+ > - Fase 3(Pagina utente): Eseguito da Andrea Franco, aiutato dal resto del gruppo,
    Verrà creato l'algoritmo che confronterà i dati salvati nel database, mostrando all'utente le scuole che più coincidono ai criteri prescelti.
  > - Fase 5(Check-up finale del prodotto): Eseguito da tutti i membri del gruppo,
    Controlleremo il totale funzionamento dell'applicazione, correggendo eventuali errori o miglioramenti. 
