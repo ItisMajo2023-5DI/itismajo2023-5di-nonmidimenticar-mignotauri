@@ -37,7 +37,7 @@
 > - Per la realizzazione del nostro progetto utilizzeremo come base di riferimento la seguente [pagina](https://www.eduscopio.it/).
 > - Il sito Eduscopio permette di conoscere le scuole che più rispecchiano i parametri inseriti dall'utente. 
  
-> Gli argomenti trattati in teoria che verranno ripresi nella creazione di questa applicazione sono principalmente:
+- Gli argomenti trattati in teoria che verranno ripresi nella creazione di questa applicazione sono principalmente:
 > - **Diagrammi UML** - Utili nella realizzazione e gestione dei database;
 > - **Database** - Metodo di memorizzazione dei dati;
 > - **Ereditarietà delle classi** - Utilizzate per la realizzazione del diagramma UML.
