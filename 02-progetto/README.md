@@ -29,7 +29,7 @@
 > - Per la documentazione del processo di realizzazione utilezzeremo il software "GitHub" e l' applicazione "GitHub Desktop",dove descriveremo tutte le modiche e le correzioni di eventuali errori utilizzando la funzione del "commit", aggiungendo titolo e descrivendo l'azione.
 
 ## Collegamenti e relazioni tra ciò che si sta realizzando e le informazioni di riferimento:
-> - Il progetto che andremo a realizzare avrà dei collegamenti esterni con queste materie:
+ - Il progetto che andremo a realizzare avrà dei collegamenti esterni con queste materie:
 > - Sistemi e reti - Autenticazione a due fattori, per garantire la sicurezza dell'utente;
 > - Tpsit - Creazione e gestione delle pagine in Html;
 > - Telecomunicazioni - Protezione delle comunicazioni tra il database e l'host;
