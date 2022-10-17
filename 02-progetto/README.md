@@ -3,17 +3,17 @@
 
 ## Progetto iniziale:
 
->- Il sito che realizzeremo ci permetterà di trovare le scuole che corrispondono ai parametri scelti dall'utente.Gli allievi saranno in grado di essere contatti dalle aziende, grazie ai dati dei vari istituti.
+>- Il sito che realizzeremo ci permetterà di trovare le scuole che corrispondono ai parametri scelti dall'utente. Gli allievi saranno in grado di essere contatti dalle aziende, grazie ai dati dei vari istituti.
 
 >- Il progetto comprenderà due pagine:
 
  >- La pagina "utente", dove si potrà avere accesso e l'utente sceglierà la scuola che più li si addice.
  >- La pagina "amministrativa", dopo avere eseguito l'autenticazione a due fattori, il personale delle varie scuole potrà inserire i dati del proprio              istituto.
->- I parametri che l'utente dovrà inserire saranno: Nome; sesso; percorso di studi; la città di residenza; la distanza e i propri interessi.
+>- I parametri che l'utente dovrà inserire saranno: Nome; sesso; studi; città di residenza; la distanza e i propri interessi.
 >- In seguito alla comparazione tra i vari istituti che corrispondono ai criteri selezionati, l'utente visualizzerà in ordine decrescente le scuole che meglio corrispondono ai bisogni indicati.
 
 ## Organizzazione e suddivisione del lavoro:
-> - Il lavoro che andremo a svolgere verrà suddiviso principalmente in 5 fasi:
+> - Il lavoro che andremo a svolgere verrà suddiviso principalmente in 4 fasi:
 
  > - Fase 1(Creazione del database): Eseguito Andrea Franco, Mattia Rughetta, Marco Defilippis, (2 ore di laboratorio).
    Mediante l'utilizzo dell'Entity Framework creeremo il database aiutandoci con il diagramma uml. 
@@ -32,7 +32,7 @@
 > - Il progetto che andremo a realizzare avrà dei collegamenti esterni con queste materie:
 > - Sistemi e reti - Autenticazione a due fattori, per garantire la sicurezza dell'utente;
 > - Tpsit - Creazione e gestione delle pagine in Html;
-> - Telecomunicazioni - Protezione delle comunicazioni tra il database e l'host. Servizio Client - Server;
+> - Telecomunicazioni - Protezione delle comunicazioni tra il database e l'host;
 > - Educazione civica - Gdpr,il  regolamento generale sulla protezione dei dati;
 > - Per la realizzazione del nostro progetto utilizzeremo come base di riferimento la seguente [pagina](https://www.eduscopio.it/).
 > - Il sito Eduscopio permette di conoscere le scuole che più rispecchiano i parametri inseriti dall'utente. 
