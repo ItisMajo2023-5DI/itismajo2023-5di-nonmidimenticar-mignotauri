@@ -5,7 +5,7 @@
 
 >- Il sito che realizzeremo ci permetterà di trovare le scuole che corrispondono ai parametri scelti dall'utente. Gli allievi saranno in grado di essere contatti dalle aziende, grazie ai dati dei vari istituti.
 
->- Il progetto comprenderà due pagine:
+ - Il progetto comprenderà due pagine:
 
 >- La pagina "utente", dove si potrà avere accesso e l'utente sceglierà la scuola che più li si addice.
 >- La pagina "amministrativa", dopo avere eseguito l'autenticazione a due fattori, il personale delle varie scuole potrà inserire i dati del proprio              istituto.
