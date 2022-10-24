@@ -33,7 +33,7 @@
 > - Sistemi e reti - Autenticazione a due fattori, per garantire la sicurezza dell'utente;
 > - Tpsit - Creazione e gestione delle pagine in Html;
 > - Telecomunicazioni - Protezione delle comunicazioni tra il database e l'host;
-> - Educazione civica - Gdpr,il  regolamento generale sulla protezione dei dati;
+> - Educazione civica - Gdpr,il  regolamento generale sulla protezione dei dati; 
 > - Per la realizzazione del nostro progetto utilizzeremo come base di riferimento la seguente [pagina](https://www.eduscopio.it/).
 > - Il sito Eduscopio permette di conoscere le scuole che più rispecchiano i parametri inseriti dall'utente. 
  
