@@ -40,5 +40,5 @@
 - Gli argomenti trattati in teoria che verranno ripresi nella creazione di questa applicazione sono principalmente:
 > - **Diagrammi UML** - Utili nella realizzazione e gestione dei database;
 > - **Database** - Metodo di memorizzazione dei dati;
-> - **Ereditarietà delle classi** - Utilizzate per la realizzazione del diagramma UML.
+> - **Ereditarietà delle classi** - Utilizzate per la realizzazione del diagramma UML. 
 
