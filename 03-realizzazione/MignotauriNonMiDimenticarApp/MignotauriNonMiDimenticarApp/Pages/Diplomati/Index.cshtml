@@ -1,0 +1,84 @@
+﻿@page
+@model MignotauriNonMiDimenticarApp.Pages.Diplomati.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].cognome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].luogoNascita)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].dataNascita)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].dataDiploma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].votoDiploma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diplomato[0].occupazione)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Diplomato) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cognome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.luogoNascita)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dataNascita)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dataDiploma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.votoDiploma)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.occupazione)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

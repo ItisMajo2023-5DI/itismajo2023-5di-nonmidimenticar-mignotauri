@@ -1,0 +1,52 @@
+﻿@page
+@model MignotauriNonMiDimenticarApp.Pages.Posizioni.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Posizione</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Posizione.indirizzo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Posizione.indirizzo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Posizione.comune)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Posizione.comune)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Posizione.provincia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Posizione.provincia)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Posizione.longitudine)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Posizione.longitudine)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Posizione.latitudine)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Posizione.latitudine)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Posizione.id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

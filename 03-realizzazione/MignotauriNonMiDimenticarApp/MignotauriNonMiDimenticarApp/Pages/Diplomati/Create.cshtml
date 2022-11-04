@@ -1,0 +1,74 @@
+﻿@page
+@model MignotauriNonMiDimenticarApp.Pages.Diplomati.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Diplomato</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Diplomato.nome" class="control-label"></label>
+                <input asp-for="Diplomato.nome" class="form-control" />
+                <span asp-validation-for="Diplomato.nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.cognome" class="control-label"></label>
+                <input asp-for="Diplomato.cognome" class="form-control" />
+                <span asp-validation-for="Diplomato.cognome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.luogoNascita" class="control-label"></label>
+                <input asp-for="Diplomato.luogoNascita" class="form-control" />
+                <span asp-validation-for="Diplomato.luogoNascita" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.dataNascita" class="control-label"></label>
+                <input asp-for="Diplomato.dataNascita" class="form-control" />
+                <span asp-validation-for="Diplomato.dataNascita" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.email" class="control-label"></label>
+                <input asp-for="Diplomato.email" class="form-control" />
+                <span asp-validation-for="Diplomato.email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.telefono" class="control-label"></label>
+                <input asp-for="Diplomato.telefono" class="form-control" />
+                <span asp-validation-for="Diplomato.telefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.dataDiploma" class="control-label"></label>
+                <input asp-for="Diplomato.dataDiploma" class="form-control" />
+                <span asp-validation-for="Diplomato.dataDiploma" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.votoDiploma" class="control-label"></label>
+                <input asp-for="Diplomato.votoDiploma" class="form-control" />
+                <span asp-validation-for="Diplomato.votoDiploma" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diplomato.occupazione" class="control-label"></label>
+                <input asp-for="Diplomato.occupazione" class="form-control" />
+                <span asp-validation-for="Diplomato.occupazione" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
